@@ -11,7 +11,7 @@
         } else {
             xhr = new ActiveXObject("Microsoft.XMLHTTP");
         }
-        xhr.open("GET",'css/style.css',false);
+        xhr.open("GET",'css/style.min.css',false);
         xhr.send();
         var lazyStyle = document.createElement('style');
         lazyStyle.innerHTML = xhr.responseText;
