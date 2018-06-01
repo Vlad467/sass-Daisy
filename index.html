@@ -5,9 +5,22 @@
     <title>Daisy</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script>
+        if (window.XMLHttpRequest) {
+            xhr = new XMLHttpRequest();
+        } else {
+            xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xhr.open("GET",'css/style.css',false);
+        xhr.send();
+        var lazyStyle = document.createElement('style');
+        lazyStyle.innerHTML = xhr.responseText;
+        document.head.appendChild(lazyStyle);
+
+    </script>
 </head>
 <body>
-<link rel="stylesheet" href="css/style.min.css"/>
+
 <section class="p7">
 <div class="header">
     <div class="layout">
