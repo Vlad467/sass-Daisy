@@ -174,6 +174,7 @@
         -o-transform: scale(.8);
         transform: scale(.8);
 
+
       }
       .step-img {
         top: 685px;
@@ -232,12 +233,13 @@
           left: -4px;
         }
       }
+
       .step4 {
         padding: 0 30px;
-
         top: 506px;
         right: 26px;
         border-right: 4px solid #fc635d;
+
         &:before {
           left: -1px;
           top: -1px;
@@ -257,14 +259,14 @@
           z-index: 3;
         }
         h2 {
-          font-size: 24.01px;
+          font-size: 32.01px;
           font-family: PFEncoreSansPro-Medium;
           color: #868686;
           margin-top: -11px;
         }
         p {
           color: #bbbbbb;
-          font-size: 15px;
+          font-size: 19px;
           font-family: PFEncoreSansPro-light;
           margin-top: 13px;
         }
@@ -577,6 +579,12 @@
         .step5 {
           left: -20px;
           top: 80px;
+        }
+        h2 {
+          font-size: 32.01px;
+        }
+        p {
+          font-size: 18px;
         }
       }
 
