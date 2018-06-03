@@ -35,7 +35,7 @@
         transform: rotate(-30deg);
         position: relative;
         top: 5px;
-        left: -5px;
+        left: -5.5px;
         width: 75%;
       }
       div:last-of-type {
@@ -46,7 +46,7 @@
         transform: rotate(30deg);
         position: relative;
         top: -5px;
-        left: -5px;
+        left: -5.5px;
         width: 75%;
       }
 
@@ -700,7 +700,7 @@
         height: 500px;
       }
       .slider-block2 {
-        left: 50%;
+        left: 100%;
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
